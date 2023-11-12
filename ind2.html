@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="menu">
+            <h1>Game registration </h1>
+
+            <form method="get">
+                <label class="form">
+                    <input type="text" id="name" placeholder="Nick-name:">
+                </label>
+                <label class="form">
+                    <input type="email" id="email" placeholder="E-mail">
+                </label>
+                <label class="form">
+                    <input type="date" lang="english" id="date" placeholder="Date:">
+                </label>
+                <div class="form">Gender:</div>
+                <div>
+                    <input type="radio" id="m" name="type">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="f" name="type">
+                    <label for="female">Female</label><br>
+                </div>
+
+                <div class="form">
+                    <select name="country" size="1">
+                        <option value='pl'>Poland</option>
+                        <option value='ua' selected>Ukraine</option>
+                        <option value='fr'>France</option>
+                        <option value='usa'>USA</option>
+                        <option value="br">Britain</option>
+                        <option value="md">Moldova</option>
+                        <option value="xd">Spain</option>
+                    </select>
+                </div>
+                <div class="form">Hero:</div>
+                <div>
+                    <input type="radio" id="f" name="type">
+                    <label for="f">Fighter</label><br>
+                    <input type="radio" id="m" name="type">
+                    <label for="m">Mag</label><br>
+                    <input type="radio" id="a" name="type">
+                    <label for="a">Archer</label><br>
+                </div>
+                <br>
+                <label class="form">Game experience:
+                    <input type="number" name="n"/>
+                </label>
+
+                <button style="height: 35px; width: 150px; margin-left: 100px ;" type="submit">Registr</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

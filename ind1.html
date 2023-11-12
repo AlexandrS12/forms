@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="menu">
+            <h1>Заказ суши </h1>
+
+            <form method="get">
+                <label class="form">Имя
+                    <input type="text" name="name" id="Name">
+                </label>
+                <label class="form">Адрес
+                    <input type="text" name="address" id="Address">
+                </label>
+                <label class="form">Телефон
+                    <input type="tel" name="phone">
+                </label>
+                <label class="form">Email
+                    <input type="email" name="email"/>
+                </label>
+                <label class="form">Количество палочек
+                    <input type="number" name="n"/>
+                </label>
+
+                <div class="form">Вид палочек</div>
+                <div>
+                    <input type="radio" id="simple" name="type">
+                    <label for="sticks">Обычные</label><br>
+                    <input type="radio" id="edu" name="type">
+                    <label for="sticks">Учебные</label><br>
+                </div>
+
+                <div class="form">Меню</div>
+                <div>
+                    <input type="radio" id="sushi_1" name="type1" >
+                    <label for="sushi1">Филадельфия</label><br>
+                    <input type="radio" id="sushi_2" name="type1">
+                    <label for="sushi2">Нигири</label><br>
+                    <input type="radio" id="sushi_3" name="type1">
+                    <label for="sushi3">Темаки</label><br>
+                </div>
+
+                <div class="form">Нужны ли салфетки?</div>
+                <div>
+                    <input type="radio" id="yes" name="salfetka">
+                    <label for="yes">Да</label><br>
+                    <input type="radio" id="no" name="salfetka">
+                    <label for="no">Нет</label><br>
+                </div>
+                <label class="form">Комментарий к заказу
+                    <input type="text"></text>
+                </label>
+                <button style="height: 35px; width: 150px; margin-left: 100px ;" type="submit">Подтвердить</button>
+
+        </div>
+</body>
+</html>
